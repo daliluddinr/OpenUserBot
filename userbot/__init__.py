@@ -103,6 +103,9 @@ WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 # Lydia API
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 
+# set blacklist_chats where you do not want userbot's features
+UB_BLACK_LIST_CHAT = os.environ.get("UB_BLACK_LIST_CHAT", "")
+    
 # Anti Spambot Config
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
 ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
